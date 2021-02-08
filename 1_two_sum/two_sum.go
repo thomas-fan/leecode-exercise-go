@@ -11,7 +11,7 @@ func Solution1(nums []int, target int) []int {
 	var result [] int
 	for i, num1 := range nums {
 		for j, num2 := range nums {
-			if num1 + num2 == target {
+			if i != j && num1 + num2 == target {
 				return append(result, i, j)
 			}
 		}
