@@ -1,10 +1,10 @@
 package two_sum
 
-//Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+//给定一个整数数组 nums和一个整数目标值 target，请你在该数组中找出 和为目标值 的那两个整数，并返回它们的数组下标。
 //
-//You may assume that each input would have exactly one solution, and you may not use the same element twice.
+//你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
 //
-//You can return the answer in any order.
+//你可以按任意顺序返回答案。
 
 // 暴力解法, 时间复杂度 O(n^2)
 func Solution1(nums []int, target int) []int {
