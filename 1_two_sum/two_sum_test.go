@@ -14,4 +14,9 @@ func TestTwoSum(t *testing.T) {
 		got := Solution1(nums, target)
 		assert.Equal(t, wanted, got)
 	})
+
+	t.Run("Solution 2", func(t *testing.T) {
+		got := Solution2(nums, target)
+		assert.Equal(t, wanted, got)
+	})
 }
