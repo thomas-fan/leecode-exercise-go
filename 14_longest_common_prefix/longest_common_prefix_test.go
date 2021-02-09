@@ -16,6 +16,7 @@ var cases = []testCase{
 	{[]string{"a"}, "a"},
 	{[]string{"", "b"}, ""},
 	{[]string{"c", "acc", "ccc"}, ""},
+	{[]string{"ab", "a"}, "a"},
 }
 
 func TestLongestCommonPrefix1(t *testing.T) {
